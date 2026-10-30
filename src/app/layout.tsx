@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Amigo Pet | Comunidade, Adoção e Portal de Parceiros",
+  title: "Amigo Pet",
   description: "Adote animais, faça doações solidárias e encontre ONGs, clínicas e pet shops no mapa da sua cidade.",
 };
 

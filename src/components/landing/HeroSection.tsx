@@ -24,7 +24,7 @@ export const HeroSection: React.FC = () => {
             <h1 className="text-4xl sm:text-5xl lg:text-[3.4rem] font-black text-[#2D3142] leading-[1.12] tracking-tight">
               O ponto de encontro de quem tem{' '}
               <span className="text-[#F6A800] underline decoration-[#F9C74F] decoration-wavy decoration-2 underline-offset-8">
-                bicho em casa
+                pets em casa
               </span>{' '}
               e amor de sobra.
             </h1>
