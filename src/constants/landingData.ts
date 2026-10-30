@@ -32,7 +32,7 @@ export interface PartnerTier {
 export const APP_CONFIG = {
   name: 'Amigo Pet',
   downloadUrl: '/apk/amigo-pet.apk',
-  logoUrl: '/imagens/logo.jpg', // Aponte para a logo oficial!
+  logoUrl: '/imagens/logo.png', // Aponte para a logo oficial!
   heroBadge: 'Sua comunidade pet local',
   heroTitle: 'Mais que um aplicativo, uma rede de proteção e carinho',
   heroSubtitle:
