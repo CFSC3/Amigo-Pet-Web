@@ -141,7 +141,7 @@ export const AppShowcaseCarousel: React.FC = () => {
                     <div className="bg-white rounded-2xl p-3 border border-[#C5CBD3]/50 shadow-xs space-y-1.5">
                       <div className="flex items-center gap-2.5">
                         <div className="w-8 h-8 rounded-full bg-[#F6A800]/20 text-[#C26710] flex items-center justify-center font-bold text-xs">
-                          HI
+                          VI
                         </div>
                         <div className="leading-tight">
                           <p className="text-xs font-extrabold text-[#2D3142]">Vitor</p>
