@@ -1,11 +1,15 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { Smartphone, Mail } from 'lucide-react';
 import { APP_CONFIG } from '@/constants/landingData';
 
 export const Footer: React.FC = () => {
-  const currentYear = new Date().getFullYear();
+  const [currentYear, setCurrentYear] = useState<number | null>(null);
+
+  useEffect(() => {
+    setCurrentYear(new Date().getFullYear());
+  }, []);
 
   return (
     <footer className="bg-[#2D3142] text-white pt-16 pb-8 border-t border-[#1E202B]">
